@@ -1,0 +1,553 @@
+{
+    "ressources": [
+        {
+            "_id": "6748d8a32831eafd3fad9fb0",
+            "title": "C'est quoi la FSCF",
+            "url": "https://www.fscf.asso.fr/histoire",
+            "type": "article"
+        },
+        {
+            "_id": "6748d801ab85103854344cc2",
+            "title": "Les 6,5 mouvements que je dois maîtriser en débutant la Capoeira.",
+            "url": "https://www.apprendrelacapoeira.fr/les-65-mouvements-que-je-dois-maitriser-en-debutant-la-capoeira",
+            "type": "article"
+        },
+        {
+            "_id": "6748d806eb2469e520b00148",
+            "title": "Au Brésil, la capoeira est une danse de combat | Invitation au voyage | ARTE Family",
+            "url": "https://www.youtube.com/watch?v=RLrS8hu8kQA",
+            "type": "reportage"
+        }
+    ],
+    "schools": [
+        {
+            "_id": "6748d65535d4ba41ee298513",
+            "name": "Capoeira Raízes",
+            "location": {
+                "address": {
+                    "street": "Rue des 3 Gateaux",
+                    "city": "Strasbourg",
+                    "zipcode": "67000"
+                },
+                "geo": {
+                    "type": "point",
+                    "coordinates": [
+                        48.580586,
+                        7.754267
+                    ]
+                }
+            }
+        },
+        {
+            "_id": "6748d79525661f7abaaf650a",
+            "name": "Leão de Capoeira",
+            "location": {
+                "address": {
+                    "street": "214 Rue Garibaldi",
+                    "city": "Lyon",
+                    "zipcode": "69003"
+                },
+                "geo": {
+                    "type": "point",
+                    "coordinates": [
+                        45.757879,
+                        4.852517
+                    ]
+                }
+            }
+        },
+        {
+            "_id": "6748d90bc0f2f27b7a90952d",
+            "name": "Vento Forte",
+            "location": {
+                "address": {
+                    "street": "101 Bd de Châteaudun",
+                    "city": "Orléans",
+                    "zipcode": "45000"
+                },
+                "geo": {
+                    "type": "point",
+                    "coordinates": [
+                        47.910764,
+                        1.893240
+                    ]
+                }
+            }
+        }
+    ],
+    "events": [
+        {
+            "_id": "6748d79f0f5d2d7389777022",
+            "title": "Baptême CAPOEIRA",
+            "description": "Venez découvrir l'art de la capoiera dans cet atelier ouvert à tous",
+            "category": "atelier",
+            "public": true,
+            "city": "Strasbourg",
+            "school_id": "6748d65535d4ba41ee298513",
+            "start_date": 1722762000,
+            "end_date": 1722794400
+        },
+        {
+            "_id": "6748e42f5e4d2a3fbf9341bf",
+            "title": "Baptême CAPOEIRA",
+            "description": "Venez découvrir l'art de la capoiera dans cet atelier ouvert à tous",
+            "category": "atelier",
+            "seats": 10,
+            "public": false,
+            "city": "Strasbourg",
+            "school_id": "6748d65535d4ba41ee298513",
+            "start_date": 1718874000,
+            "end_date": 1719252000
+        },
+        {
+            "_id": "6748d79f0f5d2d7389777023",
+            "title": "Stage Avancé de Capoeira",
+            "description": "Un stage intensif pour les pratiquants souhaitant perfectionner leur technique.",
+            "category": "stage",
+            "public": true,
+            "city": "Lyon",
+            "school_id": "6748d79525661f7abaaf650a",
+            "start_date": 1723464000,
+            "end_date": 1723550400
+        },
+        {
+            "_id": "6748d79f0f5d2d7389777024",
+            "title": "Atelier Enfants : Découverte de la Capoeira",
+            "description": "Une initiation ludique à la Capoeira pour les enfants de 6 à 12 ans.",
+            "category": "atelier",
+            "public": true,
+            "city": "Lyon",
+            "school_id": "6748d79525661f7abaaf650a",
+            "start_date": 1723982400,
+            "end_date": 1723993200
+        },
+        {
+            "_id": "6748d79f0f5d2d7389777025",
+            "title": "Soirée Roda de Capoeira",
+            "description": "Rejoignez-nous pour une roda conviviale et festive autour de la Capoeira.",
+            "category": "roda",
+            "public": true,
+            "city": "Strasbourg",
+            "school_id": "6748d65535d4ba41ee298513",
+            "start_date": 1724328000,
+            "end_date": 1724346000
+        },
+        {
+            "_id": "6748d79f0f5d2d7389777026",
+            "title": "Formation pour Professeurs",
+            "description": "Un programme spécialement conçu pour les professeurs souhaitant approfondir leur pédagogie.",
+            "category": "formation",
+            "seats": 20,
+            "public": false,
+            "city": "Orléans",
+            "school_id": "6748d90bc0f2f27b7a90952d",
+            "start_date": 1724565600,
+            "end_date": 1724652000
+        },
+        {
+            "_id": "6748d79f0f5d2d7389777030",
+            "title": "Masterclass avec Grands Maîtres",
+            "description": "Une journée exceptionnelle pour apprendre avec des maîtres renommés de la Capoeira.",
+            "category": "masterclass",
+            "public": true,
+            "city": "Strasbourg",
+            "school_id": "6748d65535d4ba41ee298513",
+            "start_date": 1723982400,
+            "end_date": 1723996800,
+            "speakers": [
+                "Mestre Falcão",
+                "Mestre Zangado",
+                "Contra-Mestre Mariposa"
+            ]
+        },
+        {
+            "_id": "6748d79f0f5d2d7389777027",
+            "title": "Capoeira et Musique : Atelier Instruments",
+            "description": "Apprenez à jouer les instruments traditionnels de la Capoeira, comme le berimbau et le pandeiro.",
+            "category": "atelier",
+            "public": true,
+            "city": "Strasbourg",
+            "school_id": "6748d65535d4ba41ee298513",
+            "start_date": 1725170400,
+            "end_date": 1725184800
+        },
+        {
+            "_id": "6748e4907e860be79bd79e99",
+            "title": "Conférence et Roda avec les Maîtres",
+            "description": "Explorez l'histoire et la philosophie de la Capoeira, suivies d'une roda dirigée par des maîtres.",
+            "category": "conférence",
+            "public": true,
+            "city": "Lyon",
+            "school_id": "6748d79525661f7abaaf650a",
+            "start_date": 1725170400,
+            "end_date": 1725184800,
+            "speakers": [
+                "Mestre Cobra",
+                "Mestre Andorinha",
+                "Contra-Mestre Vento"
+            ]
+        },
+        {
+            "_id": "6748d79f0f5d2d7389777028",
+            "title": "Festival National de Capoeira",
+            "description": "Trois jours de célébration, avec des ateliers, des rodas, et des démonstrations exceptionnelles.",
+            "category": "festival",
+            "public": true,
+            "city": "Orléans",
+            "school_id": "6748d90bc0f2f27b7a90952d",
+            "start_date": 1725696000,
+            "end_date": 1725868800
+        },
+        {
+            "_id": "6748d79f0f5d2d7389777029",
+            "title": "Journée Portes Ouvertes",
+            "description": "Découvrez les activités de notre école de Capoeira et participez à des démonstrations.",
+            "category": "événement",
+            "public": true,
+            "city": "Lyon",
+            "school_id": "6748d79525661f7abaaf650a",
+            "start_date": 1726322400,
+            "end_date": 1726351200
+        }
+    ],
+    "users": [
+        {
+            "_id": "6748d9e733558fcc2a8080f7",
+            "name": "Charde Parsons",
+            "email": "at.auctor@protonmail.couk",
+            "password": "$2y$10$4s4lsVKnWimpDzocdeUKGuiUMNiKS4j0AMz2ueEzTGv0keYFH3vGm",
+            "school_id": "6748d79525661f7abaaf650a",
+            "refNum": "FC2024000001"
+        },
+        {
+            "_id": "6748d9fc7f09107e224a2f01",
+            "name": "Allegra Hanson",
+            "email": "in.felis@aol.ca",
+            "password": "$2y$10$e7O3oevjPqhTYkGbWIZOqeBEHQAqSbLW6hDiGXzg/2AuP/BYsZigK",
+            "school_id": "6748d90bc0f2f27b7a90952d",
+            "refNum": "FC2024000002"
+        },
+        {
+            "_id": "6748da00ccd49caa3d704e45",
+            "name": "Aiko Stephenson",
+            "email": "ad.litora@aol.couk",
+            "password": "$2y$10$X97cGSQ5nUYi4jo/PmlJvedTFruoflPlCxSD.m6YLZA2TuFIw2ik.",
+            "school_id": "6748d65535d4ba41ee298513",
+            "refNum": "FC2020000003"
+        },
+        {
+            "_id": "6748da04d792c686dcbf801a",
+            "name": "Merritt Clarke",
+            "email": "porttitor.eros@hotmail.com",
+            "school_id": "6748d65535d4ba41ee298513",
+            "password": "$2y$10$kTFTbGjsqvEp6RtM615ipeS8GsZtOM.k.5ywZpHzfZIpMfFgNDOPG",
+            "refNum": "FC2019000106"
+        },
+        {
+            "_id": "6748da080122a5abda5388fe",
+            "name": "Athena Martin",
+            "email": "mollis@outlook.edu",
+            "school_id": "6748d90bc0f2f27b7a90952d",
+            "password": "$2y$10$VM6pnJlcYwHavo6rU2gMneLsMD2NUANV26Ooz/QA76KVUP5ae1AnW",
+            "refNum": "FC2001001024"
+        }
+    ],
+    "discussions": [
+        {
+            "_id": "6748dbccc30ba7f8361b605e",
+            "subject": "D'où vient le mot Capoeira",
+            "description": "Je cherche à en savoir plus sur ce mot, des idées?",
+            "author_id": "6748da00ccd49caa3d704e45",
+            "createdAt": 1714313566
+        },
+        {
+            "_id": "6748dbccc30ba7f8361b605f",
+            "subject": "L'histoire de la Capoeira au Brésil",
+            "description": "Quels événements historiques ont façonné la Capoeira telle qu'on la connaît aujourd'hui ?",
+            "author_id": "6748d9e733558fcc2a8080f7",
+            "createdAt": 1714314676
+        },
+        {
+            "_id": "6748dbccc30ba7f8361b6060",
+            "subject": "Les instruments de la Capoeira",
+            "description": "Quelles sont les différences entre le berimbau, le pandeiro, et d'autres instruments utilisés dans la Capoeira ?",
+            "author_id": "6748d9fc7f09107e224a2f01",
+            "createdAt": 1714315789
+        },
+        {
+            "_id": "6748dbccc30ba7f8361b6061",
+            "subject": "Comment améliorer sa Ginga ?",
+            "description": "Des conseils pour perfectionner ma Ginga et mes mouvements de base.",
+            "author_id": "6748da04d792c686dcbf801a",
+            "createdAt": 1714316898
+        },
+        {
+            "_id": "6748dbccc30ba7f8361b6062",
+            "subject": "Capoeira et philosophie : quels liens ?",
+            "description": "La Capoeira est-elle un art martial ou une philosophie de vie ? Discutons-en.",
+            "author_id": "6748d9fc7f09107e224a2f01",
+            "createdAt": 1714318045
+        },
+        {
+            "_id": "6748dbccc30ba7f8361b6063",
+            "subject": "La Capoeira et ses différentes écoles",
+            "description": "Comment les différentes écoles de Capoeira influencent-elles la pratique ?",
+            "author_id": "6748da080122a5abda5388fe",
+            "createdAt": 1714319154
+        },
+        {
+            "_id": "6748dbccc30ba7f8361b6064",
+            "subject": "Capoeira et bien-être : quels bénéfices ?",
+            "description": "Quels sont les effets de la Capoeira sur le corps et l'esprit ?",
+            "author_id": "6748da00ccd49caa3d704e45",
+            "createdAt": 1714320273
+        },
+        {
+            "_id": "6748dbccc30ba7f8361b6065",
+            "subject": "Les défis dans l'apprentissage de la Capoeira",
+            "description": "Quels sont les obstacles courants que l'on rencontre quand on apprend la Capoeira ?",
+            "author_id": "6748da00ccd49caa3d704e45",
+            "createdAt": 1714321389
+        }
+    ],
+    "messages": [
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3118",
+            "user_id": "6748da080122a5abda5388fe",
+            "discussion_id": "6748dbccc30ba7f8361b605e",
+            "text": "Je sais qu'en portugais du Brésil colonial, 'capoeira' faisait référence à une cage ou un panier utilisé pour transporter des poulets",
+            "date": 1714334482
+        },
+        {
+            "_id": "6748e3ba077ccf7533f40c71",
+            "user_id": "6748d9e733558fcc2a8080f7",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "Je pense que l'histoire de la Capoeira est très liée à l'esclavage au Brésil et à la lutte pour la liberté. Les esclaves utilisaient cet art pour se défendre et préserver leur culture.",
+            "date": 1714315000
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3119",
+            "user_id": "6748d9fc7f09107e224a2f01",
+            "discussion_id": "6748dbccc30ba7f8361b6060",
+            "text": "Le berimbau est un instrument très particulier. Il a une sonorité unique et il est essentiel dans la création de l'atmosphère de la Roda de Capoeira. C'est vraiment l'âme de la pratique !",
+            "date": 1714315500
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3120",
+            "user_id": "6748da00ccd49caa3d704e45",
+            "discussion_id": "6748dbccc30ba7f8361b6061",
+            "text": "Pour améliorer sa Ginga, je pense qu'il faut pratiquer tous les jours et se concentrer sur la fluidité des mouvements. Chaque détail compte, que ce soit l'angle du corps ou le placement des pieds.",
+            "date": 1714316300
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3121",
+            "user_id": "6748da04d792c686dcbf801a",
+            "discussion_id": "6748dbccc30ba7f8361b6062",
+            "text": "La Capoeira est une véritable philosophie de vie. C'est un mélange de combat, de danse, de musique et d'esprit communautaire. Elle m'a appris à être plus en harmonie avec moi-même et avec les autres.",
+            "date": 1714317400
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3122",
+            "user_id": "6748da080122a5abda5388fe",
+            "discussion_id": "6748dbccc30ba7f8361b6063",
+            "text": "Les écoles de Capoeira varient vraiment dans leurs méthodes d'enseignement. Parfois, les enseignants privilégient un côté plus martial, tandis que d'autres mettent l'accent sur l'aspect artistique. C'est ce qui fait la richesse de cet art.",
+            "date": 1714318500
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3123",
+            "user_id": "6748d9e733558fcc2a8080f7",
+            "discussion_id": "6748dbccc30ba7f8361b6064",
+            "text": "La Capoeira m'a apporté une grande forme physique et mentale. C'est un excellent moyen de se défouler tout en apprenant une culture incroyable.",
+            "date": 1714320000
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3124",
+            "user_id": "6748d9fc7f09107e224a2f01",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "Je pense que l'un des plus grands défis dans l'apprentissage de la Capoeira est d'apprendre à se déplacer avec fluidité tout en gardant l'équilibre. Cela peut être frustrant au début, mais c'est aussi ce qui rend cet art si unique.",
+            "date": 1714321000
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3125",
+            "user_id": "6748d9e733558fcc2a8080f7",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "Je suis tout à fait d'accord. Pour améliorer l'équilibre, il faut aussi beaucoup de travail sur la respiration et la concentration. Les petits ajustements font toute la différence.",
+            "date": 1714322100
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3126",
+            "user_id": "6748da00ccd49caa3d704e45",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "Il faut aussi ne pas se décourager, chaque progrès, même minime, est une victoire. La Capoeira est un voyage personnel.",
+            "date": 1714322200
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3127",
+            "user_id": "6748da04d792c686dcbf801a",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "La patience est essentielle. Je trouve que les meilleurs moments viennent quand on cesse de chercher la perfection et qu'on se concentre sur le plaisir du mouvement.",
+            "date": 1714322500
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3128",
+            "user_id": "6748da080122a5abda5388fe",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "C'est vrai, mais parfois je trouve difficile de rester motivé quand je ne vois pas de progrès immédiats. Comment gérez-vous ça ?",
+            "date": 1714322800
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3129",
+            "user_id": "6748d9fc7f09107e224a2f01",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "Je me force à apprécier les petits moments de progrès. Par exemple, je me félicite quand je parviens à enchaîner deux mouvements avec fluidité, même si c'est tout petit.",
+            "date": 1714323100
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3130",
+            "user_id": "6748d9e733558fcc2a8080f7",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "Oui, chaque petite victoire compte ! La Capoeira enseigne à être à l'écoute de soi-même. C'est un excellent moyen de renforcer la confiance en soi.",
+            "date": 1714323200
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3131",
+            "user_id": "6748da00ccd49caa3d704e45",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "Exactement ! Ce que j'apprécie particulièrement dans la Capoeira, c'est que chaque pratique est différente et qu'il n'y a pas de routine. C'est toujours un défi.",
+            "date": 1714323500
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3132",
+            "user_id": "6748da04d792c686dcbf801a",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "Je trouve aussi que la diversité des mouvements rend chaque session intéressante. Même quand je suis fatigué, il y a toujours quelque chose de nouveau à explorer.",
+            "date": 1714323700
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3133",
+            "user_id": "6748da080122a5abda5388fe",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "C'est bien dit. La Capoeira me pousse à sortir de ma zone de confort à chaque fois, et c'est ce que j'aime. C'est un défi personnel constant.",
+            "date": 1714324000
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3134",
+            "user_id": "6748d9fc7f09107e224a2f01",
+            "discussion_id": "6748dbccc30ba7f8361b6065",
+            "text": "C'est tout à fait ça ! Et au final, même si le chemin est difficile, la récompense est immense quand on réussit à maîtriser un mouvement ou une technique.",
+            "date": 1714324300
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3135",
+            "user_id": "6748d9fc7f09107e224a2f01",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "L'histoire de la Capoeira est fascinante. C'est incroyable de voir comment les esclaves ont utilisé cette forme de combat comme moyen d'expression et de résistance.",
+            "date": 1714325100
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3136",
+            "user_id": "6748da00ccd49caa3d704e45",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "Oui, et il est impressionnant de voir comment la Capoeira a survécu au fil des années malgré la répression. C’est devenu une forme d’identité et de culture brésilienne.",
+            "date": 1714325400
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3137",
+            "user_id": "6748da04d792c686dcbf801a",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "L'influence des religions afro-brésiliennes dans la Capoeira est également un aspect important. Cela montre encore plus la profondeur spirituelle de cette pratique.",
+            "date": 1714325700
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3138",
+            "user_id": "6748da080122a5abda5388fe",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "Je pense aussi que la Capoeira a évolué au fil du temps pour inclure des aspects de jeu et de danse. C’est ce qui la rend encore plus captivante aujourd'hui.",
+            "date": 1714326000
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3139",
+            "user_id": "6748d9e733558fcc2a8080f7",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "C’est fascinant, la manière dont la Capoeira continue à se transformer tout en préservant son histoire et ses racines. Cela montre vraiment sa résilience.",
+            "date": 1714326300
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3140",
+            "user_id": "6748d9fc7f09107e224a2f01",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "La question de la clandestinité de la Capoeira au XIXe siècle est aussi très intéressante. Les maîtres ont dû être créatifs pour pratiquer sans attirer l'attention des autorités.",
+            "date": 1714326600
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3141",
+            "user_id": "6748da00ccd49caa3d704e45",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "C’est vrai ! Ce mélange de combat, de danse et de jeu caché a permis à la Capoeira de perdurer sous des formes diverses à travers les générations.",
+            "date": 1714326900
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3142",
+            "user_id": "6748da04d792c686dcbf801a",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "Aujourd'hui, je trouve qu'il est important de rappeler cette histoire aux nouvelles générations de pratiquants, pour qu'ils comprennent d'où vient cet art.",
+            "date": 1714327200
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3143",
+            "user_id": "6748da080122a5abda5388fe",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "Il est essentiel de préserver cette tradition et cette histoire tout en permettant à la Capoeira de continuer à évoluer avec son temps.",
+            "date": 1714327500
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3144",
+            "user_id": "6748d9e733558fcc2a8080f7",
+            "discussion_id": "6748dbccc30ba7f8361b605f",
+            "text": "Oui, c'est un équilibre difficile, mais je pense que c’est ce qui fait que la Capoeira est si vivante et pertinente aujourd'hui.",
+            "date": 1714327800
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3145",
+            "user_id": "6748d9fc7f09107e224a2f01",
+            "discussion_id": "6748dbccc30ba7f8361b6060",
+            "text": "Le pandeiro a un son incroyable et sa capacité à s'intégrer à la musique de la Capoeira en fait un instrument incontournable. Il apporte une touche rythmique unique.",
+            "date": 1714328100
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3146",
+            "user_id": "6748da00ccd49caa3d704e45",
+            "discussion_id": "6748dbccc30ba7f8361b6060",
+            "text": "Le berimbau est vraiment le cœur de la musique de la Capoeira. Son son profond crée l'atmosphère nécessaire à la Roda.",
+            "date": 1714328400
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3147",
+            "user_id": "6748da04d792c686dcbf801a",
+            "discussion_id": "6748dbccc30ba7f8361b6060",
+            "text": "J'adore le fait que chaque instrument ait une fonction bien précise. Le berimbau guide le rythme, et le pandeiro, avec ses cymbales, donne une dynamique rythmique supplémentaire.",
+            "date": 1714328700
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3148",
+            "user_id": "6748da080122a5abda5388fe",
+            "discussion_id": "6748dbccc30ba7f8361b6060",
+            "text": "Le atabaque est aussi fondamental, surtout quand il s'agit de rythmes plus intenses. C'est l'instrument qui complète l'ensemble des percussions dans la Roda.",
+            "date": 1714329000
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3149",
+            "user_id": "6748d9e733558fcc2a8080f7",
+            "discussion_id": "6748dbccc30ba7f8361b6060",
+            "text": "Le son du berimbau reste gravé dans ma mémoire chaque fois que je le joue. Il a une résonance qui guide toute la dynamique du jeu de Capoeira.",
+            "date": 1714329300
+        },
+        {
+            "_id": "6748dc1ff1b9f22a3fdf3150",
+            "user_id": "6748d9fc7f09107e224a2f01",
+            "discussion_id": "6748dbccc30ba7f8361b6060",
+            "text": "Le pandeiro est aussi très polyvalent. En fonction de la pression des doigts, il peut produire différents sons, ajoutant ainsi de la texture à la musique.",
+            "date": 1714329600
+        }
+    ]
+}
