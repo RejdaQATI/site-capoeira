@@ -7,8 +7,8 @@ import { ArticlesComponent } from './pages/articles/articles.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'events', component: EventsComponent },
     { path: 'forum', component: ForumComponent },
     { path: 'profile', component: ProfileComponent },
     { path: 'articles', component: ArticlesComponent },
+    { path: 'events', component: EventsComponent },
 ];
