@@ -1,0 +1,11 @@
+<div class="container mx-auto py-8">
+    <h1 class="text-2xl font-bold mb-4">Messages de la Discussion</h1>
+    <ul class="space-y-4">
+      <li *ngFor="let message of messages" class="bg-gray-100 p-4 rounded shadow">
+        <p class="text-gray-700">{{ message.text }}</p>
+        <p class="text-sm text-gray-500">Auteur ID : {{ message.user_id }}</p>
+        <p class="text-sm text-gray-400">Envoyé le : {{ message.date | date: 'long' }}</p>
+      </li>
+    </ul>
+  </div>
+  
