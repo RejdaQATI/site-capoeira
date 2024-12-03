@@ -12,3 +12,4 @@ export const routes: Routes = [
     { path: 'articles', component: ArticlesComponent },
     { path: 'events', component: EventsComponent },
 ];
+
