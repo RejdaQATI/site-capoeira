@@ -5,7 +5,7 @@
         <h2 class="text-xl font-semibold">{{ discussion.subject }}</h2>
         <p class="text-gray-600">{{ discussion.description }}</p>
         <p class="text-sm text-gray-500">Auteur ID : {{ discussion.author_id }}</p>
-        <p class="text-sm text-gray-400">Créé le : {{ discussion.createdAt | date: 'long' }}</p>
+        <p class="text-sm text-gray-400">Créé le : {{ discussion.createdAt | date:"short" }}</p>
         <a
             [routerLink]="['/forum/discussion', discussion._id]"
             class="text-blue-500 hover:underline text-sm"
