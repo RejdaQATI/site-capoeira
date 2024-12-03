@@ -1,1 +1,225 @@
-<p>events works!</p>
+<div class="relative bg-blue-500 text-white h-80 sm:h-[400px]">
+    <img 
+        src="capo-banner.webp" 
+        alt="Événements Capoeira" 
+        class="absolute inset-0 w-full h-full object-cover opacity-50"
+    />
+    <div class="relative z-10 flex items-center justify-center h-full text-center px-4">
+        <div class="max-w-4xl">
+            <h1 class="text-4xl sm:text-5xl font-bold mb-4">Découvrez nos Événements</h1>
+        <p class="text-lg sm:text-xl">
+            Restez à jour avec les derniers événements organisés par nos écoles de Capoeira à travers la France.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="bg-gray-100 py-8">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-8">
+            Liste des événements à venir
+        </h2>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+            <div class="col-span-1 lg:col-span-2 bg-white rounded-lg shadow p-4 h-auto">
+            <app-event-item [event]="events[0]"></app-event-item>
+            </div>
+            <div class="col-span-1 lg:col-span-2 flex flex-col gap-4">
+            <div class="bg-white rounded-lg shadow p-6 flex items-center">
+                <img 
+                    src="event.webp" 
+                    alt="{{ events[1].title }}" 
+                    class="h-24 w-24 sm:h-28 sm:w-28 object-cover rounded"
+                />
+                <div class="ml-4">
+                    <h2 class="text-sm font-semibold">{{ events[1].title }}</h2>
+                    <p class="text-xs text-gray-500 mt-1">{{ events[1].description }}</p>
+                    <p class="text-xs text-gray-600 mt-1">
+                    <span class="font-semibold">Catégorie :</span> {{ events[1].category }}
+                    </p>
+                    <p class="text-xs text-gray-600 mt-1">
+                    <span class="font-semibold">Ville :</span> {{ events[1].city }}
+                    </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6 flex items-center">
+                    <img 
+                    src="event.webp" 
+                    alt="{{ events[2].title }}" 
+                    class="h-24 w-24 sm:h-28 sm:w-28 object-cover rounded"
+                />
+                <div class="ml-4">
+                    <h2 class="text-sm font-semibold">{{ events[2].title }}</h2>
+                    <p class="text-xs text-gray-500 mt-1">{{ events[2].description }}</p>
+                    <p class="text-xs text-gray-600 mt-1">
+                        <span class="font-semibold">Catégorie :</span> {{ events[2].category }}
+                    </p>
+                    <p class="text-xs text-gray-600 mt-1">
+                        <span class="font-semibold">Ville :</span> {{ events[2].city }}
+                    </p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6 flex items-center">
+                <img 
+                    src="event.webp" 
+                    alt="{{ events[3].title }}" 
+                    class="h-24 w-24 sm:h-28 sm:w-28 object-cover rounded"
+                />
+                <div class="ml-4">
+                    <h2 class="text-sm font-semibold">{{ events[3].title }}</h2>
+                    <p class="text-xs text-gray-500 mt-1">{{ events[3].description }}</p>
+                    <p class="text-xs text-gray-600 mt-1">
+                        <span class="font-semibold">Catégorie :</span> {{ events[3].category }}
+                    </p>
+                        <p class="text-xs text-gray-600 mt-1">
+                    <span class="font-semibold">Ville :</span> {{ events[3].city }}
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-gray-100 py-8">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-4">
+            Découvrez plus d'événements
+        </h2>
+        <p class="text-lg text-center text-gray-600 mb-8">
+            Explorez d'autres activités enrichissantes organisées par nos écoles à travers la France.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow p-4">
+                <app-event-item [event]="events[4]"></app-event-item>
+            </div>
+            <div class="bg-white rounded-lg shadow p-4">
+                <app-event-item [event]="events[5]"></app-event-item>
+            </div>
+            <div class="bg-white rounded-lg shadow p-4">
+                <app-event-item [event]="events[6]"></app-event-item>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-200 py-8">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-4">
+                Tous les Événements
+            </h2>
+            <p class="text-lg text-center text-gray-600 mb-8">
+                Explorez l'intégralité des événements organisés par nos écoles à travers la France. Ne manquez pas une occasion de participer !
+            </p>
+    
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
+
+                <div class="flex flex-col gap-6">
+                    <div class="bg-white rounded-lg shadow p-4 flex h-auto items-center">
+                        <img 
+                            src="event.webp" 
+                            alt="{{ events[0].title }}" 
+                            class="h-28 w-28 object-cover rounded"
+                        />
+                        <div class="ml-4 flex-1">
+                            <h2 class="text-base font-semibold">{{ events[0].title }}</h2>
+                            <p class="text-sm text-gray-500">{{ events[0].city }}</p>
+                            <p class="text-sm text-gray-600 mt-2">{{ events[0].description }}</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4 flex h-auto items-center">
+                        <img 
+                            src="event.webp" 
+                            alt="{{ events[1].title }}" 
+                            class="h-28 w-28 object-cover rounded"
+                        />
+                        <div class="ml-4 flex-1">
+                            <h2 class="text-base font-semibold">{{ events[1].title }}</h2>
+                            <p class="text-sm text-gray-500">{{ events[1].city }}</p>
+                            <p class="text-sm text-gray-600 mt-2">{{ events[1].description }}</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4 flex h-auto items-center">
+                        <img 
+                            src="event.webp" 
+                            alt="{{ events[2].title }}" 
+                            class="h-28 w-28 object-cover rounded"
+                        />
+                        <div class="ml-4 flex-1">
+                            <h2 class="text-base font-semibold">{{ events[2].title }}</h2>
+                            <p class="text-sm text-gray-500">{{ events[2].city }}</p>
+                            <p class="text-sm text-gray-600 mt-2">{{ events[2].description }}</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4 flex h-auto items-center">
+                        <img 
+                            src="event.webp" 
+                            alt="{{ events[3].title }}" 
+                            class="h-28 w-28 object-cover rounded"
+                        />
+                        <div class="ml-4 flex-1">
+                            <h2 class="text-base font-semibold">{{ events[3].title }}</h2>
+                            <p class="text-sm text-gray-500">{{ events[3].city }}</p>
+                            <p class="text-sm text-gray-600 mt-2">{{ events[3].description }}</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="flex flex-col gap-6">
+                    <div class="bg-white rounded-lg shadow p-4 flex h-auto items-center">
+                        <img 
+                        src="event.webp" 
+                        alt="{{ events[4].title }}" 
+                        class="h-28 w-28 object-cover rounded"
+                        />
+                        <div class="ml-4 flex-1">
+                            <h2 class="text-base font-semibold">{{ events[4].title }}</h2>
+                            <p class="text-sm text-gray-500">{{ events[4].city }}</p>
+                            <p class="text-sm text-gray-600 mt-2">{{ events[4].description }}</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4 flex h-auto items-center">
+                        <img 
+                        src="event.webp" 
+                        alt="{{ events[5].title }}" 
+                        class="h-28 w-28 object-cover rounded"
+                        />
+                        <div class="ml-4 flex-1">
+                            <h2 class="text-base font-semibold">{{ events[5].title }}</h2>
+                            <p class="text-sm text-gray-500">{{ events[5].city }}</p>
+                            <p class="text-sm text-gray-600 mt-2">{{ events[5].description }}</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4 flex h-auto items-center">
+                        <img 
+                            src="event.webp" 
+                            alt="{{ events[6].title }}" 
+                            class="h-28 w-28 object-cover rounded"
+                        />
+                        <div class="ml-4 flex-1">
+                            <h2 class="text-base font-semibold">{{ events[6].title }}</h2>
+                            <p class="text-sm text-gray-500">{{ events[6].city }}</p>
+                            <p class="text-sm text-gray-600 mt-2">{{ events[6].description }}</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4 flex h-auto items-center">
+                        <img 
+                            src="event.webp" 
+                            alt="{{ events[7].title }}" 
+                            class="h-28 w-28 object-cover rounded"
+                        />
+                        <div class="ml-4 flex-1">
+                            <h2 class="text-base font-semibold">{{ events[7].title }}</h2>
+                            <p class="text-sm text-gray-500">{{ events[7].city }}</p>
+                            <p class="text-sm text-gray-600 mt-2">{{ events[7].description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+</div>

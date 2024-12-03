@@ -1,0 +1,29 @@
+<div class="bg-white rounded-lg shadow p-4">
+    <!-- Image -->
+    <img 
+      src="event.webp" 
+      alt="{{ event.title }}" 
+      class="w-full h-40 sm:h-64 object-cover rounded-t-lg mb-4"
+    />
+  
+    <!-- Détails de l'événement -->
+    <h2 class="text-xl font-semibold">{{ event.title }}</h2>
+    <p class="text-gray-700 mt-2">{{ event.description }}</p>
+    <p class="mt-4">
+      <span class="font-semibold">Ville :</span> {{ event.city }}
+    </p>
+    <p>
+      <span class="font-semibold">Catégorie :</span> {{ event.category }}
+    </p>
+    <p>
+      <span class="font-semibold">Public :</span>
+      <span [class]="event.public ? 'text-green-600' : 'text-red-600'">
+        {{ event.public ? 'Oui' : 'Non' }}
+      </span>
+    </p>
+    <p class="mt-4">
+      <span class="font-semibold">Date :</span>
+      {{ event.start_date | date: 'long' }} - {{ event.end_date | date: 'long' }}
+    </p>
+  </div>
+  
