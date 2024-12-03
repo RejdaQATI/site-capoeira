@@ -10,8 +10,8 @@ import 'leaflet/dist/leaflet.css';
 })
 export class HomeComponent {
   ngAfterViewInit() {
-    var map = L.map('map').setView([51.505, -0.09], 13);
-
+    var map = L.map('map').setView([47.13, 2.5], 5);
+    
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
