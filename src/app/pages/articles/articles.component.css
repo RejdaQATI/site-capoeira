@@ -1,13 +1,12 @@
-/* Page principale */
+
 .about-page {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   max-width: 900px;
-  margin: 0 auto; /* Centrer la page */
+  margin: 0 auto;
   padding: 20px;
 }
 
-/* Titre des sections */
 .section-title {
   font-size: 2rem;
   font-weight: bold;
@@ -16,14 +15,12 @@
   margin: 30px 0 20px;
 }
 
-/* Texte introductif */
 .intro-text {
   font-size: 1.2rem;
   margin-bottom: 30px;
   text-align: justify;
 }
 
-/* Listes */
 .mission-list,
 .activities-list,
 .values-list {
@@ -38,7 +35,6 @@
   margin-bottom: 10px;
 }
 
-/* Ressources */
 .resources {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -59,7 +55,6 @@
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Activités et Valeurs */
 .activities-text,
 .values-text {
   margin-bottom: 20px;
