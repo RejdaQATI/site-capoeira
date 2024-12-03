@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { CarouselComponent } from "../../carousel/carousel.component";
 import L from "leaflet";
 import 'leaflet/dist/leaflet.css';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [CarouselComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

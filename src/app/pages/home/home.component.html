@@ -10,9 +10,9 @@
 </section>
 
 <div class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
-  <!-- Section 1: Image et Calendrier -->
+
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-    <!-- Colonne gauche : Image et texte -->
+
     <div>
       <img
         src="photo1.png"
@@ -23,16 +23,15 @@
       <h2 class="text-xl font-bold mt-2">La Capoeira a enfin sa Fédération</h2>
     </div>
 
-    <!-- Colonne droite : Calendrier -->
     <div>
       <div class="flex justify-between items-center">
         <h2 class="text-2xl font-bold">Calendrier 2024/2025</h2>
         <button class="px-4 py-2 bg-black text-white text-sm rounded-lg hover:bg-gray-800">
-          VOIR +
+          <a href="events">VOIR +</a>
         </button>
       </div>
       <div class="mt-4 space-y-4">
-        <!-- Événement 1 -->
+
         <div class="flex justify-between items-center bg-gray-100 p-4 rounded-lg shadow">
           <div>
             <p class="font-bold">Championnat de France</p>
@@ -40,7 +39,7 @@
           </div>
           <p class="font-bold text-xl">24/11/2024</p>
         </div>
-        <!-- Événement 2 -->
+
         <div class="flex justify-between items-center bg-gray-100 p-4 rounded-lg shadow">
           <div>
             <p class="font-bold">Stage international</p>
@@ -48,7 +47,7 @@
           </div>
           <p class="font-bold text-xl">15/12/2024</p>
         </div>
-        <!-- Événement 3 -->
+
         <div class="flex justify-between items-center bg-gray-100 p-4 rounded-lg shadow">
           <div>
             <p class="font-bold">Stage national</p>
@@ -60,71 +59,6 @@
     </div>
   </div>
 
-  <!-- Section 2: Actualités -->
-  <div class="mt-16">
-    <h2 class="text-2xl font-bold mb-6">Actualités</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Carte d'actualité 1 -->
-      <div class="border rounded-lg shadow-lg overflow-hidden">
-        <img src="photo2.png" alt="Actualité 1" class="h-48 w-full object-cover" />
-        <div class="p-4">
-          <div class="flex items-center space-x-2 text-sm text-gray-600 mb-2">
-            <div class="h-6 w-6 bg-gray-300 rounded-full"></div>
-            <p>Rejda Q.</p>
-            <p>15 novembre 2024</p>
-          </div>
-          <p class="text-sm text-gray-800 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p class="text-sm text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tempus magna.
-          </p>
-        </div>
-      </div>
-      <!-- Carte d'actualité 2 -->
-      <div class="border rounded-lg shadow-lg overflow-hidden">
-        <img src="photo3.png" alt="Actualité 2" class="h-48 w-full object-cover" />
-        <div class="p-4">
-          <div class="flex items-center space-x-2 text-sm text-gray-600 mb-2">
-            <div class="h-6 w-6 bg-gray-300 rounded-full"></div>
-            <p>Rejda Q.</p>
-            <p>15 novembre 2024</p>
-          </div>
-          <p class="text-sm text-gray-800 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p class="text-sm text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tempus magna.
-          </p>
-        </div>
-      </div>
-      <!-- Carte d'actualité 3 -->
-      <div class="border rounded-lg shadow-lg overflow-hidden">
-        <img src="photo1.png" alt="Actualité 3" class="h-48 w-full object-cover" />
-        <div class="p-4">
-          <div class="flex items-center space-x-2 text-sm text-gray-600 mb-2">
-            <div class="h-6 w-6 bg-gray-300 rounded-full"></div>
-            <p>Rejda Q.</p>
-            <p>15 novembre 2024</p>
-          </div>
-          <p class="text-sm text-gray-800 font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p class="text-sm text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu tempus magna.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Pagination -->
-  <div class="flex justify-center items-center space-x-4 mt-8">
-    <button class="flex items-center justify-center h-10 w-10 rounded-full border border-gray-400 text-gray-600 hover:bg-gray-200">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-      </svg>
-    </button>
-    <button class="flex items-center justify-center h-10 w-10 rounded-full border border-gray-400 text-gray-600 hover:bg-gray-200">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-      </svg>
-    </button>
-  </div>
+  <app-carousel></app-carousel>
   <div id="map" class="h-96 mx-auto mt-5"></div>
 </div>
-

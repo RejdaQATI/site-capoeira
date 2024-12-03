@@ -1,0 +1,18 @@
+.carousel {
+  width: 100%;
+}
+
+.carousel-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 articles visibles */
+  gap: 1rem;
+}
+
+.carousel-container img {
+  object-fit: cover;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
