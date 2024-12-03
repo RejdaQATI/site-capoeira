@@ -1,1 +1,18 @@
-<p>forum works!</p>
+<div class="container mx-auto py-8">
+    <h1 class="text-3xl font-bold mb-4">Forum de Discussions</h1>
+    <ul class="space-y-4">
+      <li *ngFor="let discussion of discussions" class="bg-white shadow p-4 rounded">
+        <h2 class="text-xl font-semibold">{{ discussion.subject }}</h2>
+        <p class="text-gray-600">{{ discussion.description }}</p>
+        <p class="text-sm text-gray-500">Auteur ID : {{ discussion.author_id }}</p>
+        <p class="text-sm text-gray-400">Créé le : {{ discussion.createdAt | date: 'long' }}</p>
+        <a
+            [routerLink]="['/forum/discussion', discussion._id]"
+            class="text-blue-500 hover:underline text-sm"
+        >
+            Voir les messages
+            </a>
+        </li>
+    </ul>
+  </div>
+  
