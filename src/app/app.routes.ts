@@ -5,6 +5,7 @@ import { ForumComponent } from './pages/forum/forum.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { ArticlesComponent } from './pages/articles/articles.component';
 import { DiscussionDetailComponent } from './pages/forum/discussion-detail/discussion-detail.component';
+import { EventDetailComponent } from './pages/events/event-detail.component';
 
 
 export const routes: Routes = [
@@ -14,4 +15,5 @@ export const routes: Routes = [
     { path: 'profile', component: ProfileComponent },
     { path: 'articles', component: ArticlesComponent },
     { path: 'events', component: EventsComponent },
+    { path: 'events/:id', component: EventDetailComponent },
 ];

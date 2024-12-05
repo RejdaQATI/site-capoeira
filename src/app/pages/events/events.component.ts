@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EventItemComponent } from './event-item/event-item.component';
 import { EventService } from '../../services/event.service';
+import { RouterModule } from '@angular/router';
 import { Event } from '../../models/event.model';
 
 @Component({
@@ -9,6 +10,7 @@ import { Event } from '../../models/event.model';
   standalone: true, 
   imports: [
     CommonModule, 
+    RouterModule,
     EventItemComponent 
   ],
   templateUrl: './events.component.html',

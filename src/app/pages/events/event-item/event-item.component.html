@@ -13,12 +13,6 @@
     <p>
         <span class="font-semibold">Catégorie :</span> {{ event.category }}
     </p>
-    <p>
-        <span class="font-semibold">Public :</span>
-        <span [class]="event.public ? 'text-green-600' : 'text-red-600'">
-        {{ event.public ? 'Oui' : 'Non' }}
-    </span>
-    </p>
     <p class="mt-4">
         <span class="font-semibold">Date :</span>
         {{ event.start_date | date: 'short' }} - {{ event.end_date | date: "short" }}

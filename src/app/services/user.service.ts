@@ -10,7 +10,6 @@ export class UserService {
 
   constructor(private http: HttpClient) {}
 
-  // Récupérer un utilisateur par son ID
   getUserById(userId: string): Observable<any> {
     return this.http.get(`${this.apiUrl}/${userId}`);
   }

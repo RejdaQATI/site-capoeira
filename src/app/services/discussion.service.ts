@@ -22,7 +22,6 @@ export class DiscussionService {
   addDiscussion(discussion: Discussion): Observable<Discussion> {
     return this.http.post<Discussion>(this.apiUrl, discussion);
   }
-
   updateDiscussion(id: string, discussion: Discussion): Observable<Discussion> {
     return this.http.put<Discussion>(`${this.apiUrl}/${id}`, discussion);
   }
